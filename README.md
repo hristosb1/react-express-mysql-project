@@ -28,4 +28,15 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# react-express-mysql-project
+
+
+
+# How to use
+
+- install NodeJS on your system
+- setup credentials and database info in [.env] file
+- create a database and tables using 
+[createDB.sql] and populate it using [DB-entries.sql]
+- run npm install in terminal (path must match repo path)
+- execute npm run server in terminal 1
+- execute npm run dev in terminal 2
